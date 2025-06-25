@@ -47,13 +47,13 @@ const ld EPS = 1e-9;
 
 void solve()
 {
-    int n;
+    ll n;
     cin >> n;
 
     while (n != 1)
     {
         cout << n << " ";
-        (n % 2) ? n = n * 3 + 1 : n /= 2;
+        (n % 2) ? n = (n * 3) + 1 : n /= 2;
     }
 
     cout << 1 << endl;
